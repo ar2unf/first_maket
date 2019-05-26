@@ -909,7 +909,6 @@ body {
   line-height: 22px;
   border: none;
   outline: none;
-  -webkit-appearance: none;
 }
 .footer .first_sector .subscribe input[type="email"]::placeholder {
   padding-left: 19px;
