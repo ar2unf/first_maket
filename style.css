@@ -909,6 +909,7 @@ body {
   line-height: 22px;
   border: none;
   outline: none;
+  -webkit-appearance: none;
 }
 .footer .first_sector .subscribe input[type="email"]::placeholder {
   padding-left: 19px;
@@ -1309,6 +1310,10 @@ body {
 }
 .rel_prod a img:active {
   box-shadow: none;
+}
+.rel_prod .rel_prod_block {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .sub_nav_prod {
   margin-top: 31px;
