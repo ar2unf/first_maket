@@ -1128,6 +1128,8 @@ body {
   align-content: center;
   margin-top: 23px;
   margin-right: -34px;
+  padding-left: 45px;
+  padding-right: 12px;
 }
 .sub_navi_product li {
   float: left;
@@ -1186,6 +1188,7 @@ body {
   letter-spacing: 1.2px;
 }
 .price_prod {
+  position: relative;
   color: #212121;
   margin-top: 10px;
   /* font-size: 36px; */
@@ -1195,32 +1198,27 @@ body {
   text-transform: uppercase;
 }
 .price_prod .backs {
-  float: left;
-  margin-top: 11px;
-  margin-left: 170px;
-  text-align: left;
-  padding: 0px;
+  position: absolute;
+  top: 11px;
+  left: 155px;
   font-size: 36px;
 }
 .price_prod .price {
-  float: left;
-  text-align: center;
-  padding: 0px;
-  margin-left: -176px;
+  position: absolute;
+  top: 0;
+  left: 34%;
 }
 .price_prod .sq {
-  float: left;
-  text-align: right;
-  margin-top: 11px;
-  padding: 0px;
+  position: absolute;
+  top: 12px;
+  left: 60%;
   font-size: 36px;
   text-transform: none;
-  margin-left: -160px;
 }
 .information_prod a {
   align-self: center;
   padding-left: 154px;
-  margin-top: 17px;
+  margin-top: 15%;
   display: block;
   /* width: 146px; */
   /* height: 16px; */
@@ -1315,6 +1313,4 @@ body {
 }
 .sub_nav_prod {
   margin-top: 31px;
-  padding-left: 44px;
-  padding-right: 12px;
 }
